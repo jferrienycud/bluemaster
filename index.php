@@ -1,13 +1,8 @@
 <?php include('includes/header.php')?>
-		<header>
-
-		</header>
-
-		<div id="main" role="main">
-
-		</div>
-
-		<footer>
-
-		</footer>
+  <div class="carousel">
+    
+  </div>
+  <div class="content">
+    
+  </div>
 <?php include('includes/footer.php')?>

@@ -1,3 +1,45 @@
+  <div class="footer-wrap">
+    <div class="footer">
+      <div class="col half">
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in nisl at ante eleifend interdum. Phasellus vel ligula augue. Quisque in massa ut metus viverra varius.</p>
+      </div>
+      <div class="col half">
+        <h5>Categories</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in nisl at ante eleifend interdum. Phasellus vel ligula augue. Quisque in massa ut metus viverra varius.</p>
+      </div>
+      <div class="col">
+        <h5>From The Gallery</h5>
+        <ul>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+          <li>IMAGE</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h5>Twitter Updates</h5>
+      </div>
+    </div>
+  </div>
+  
+  <div class="legal-wrap">
+    <div class="legal">
+      <p>&copy; Copyright iPadeMasters Theme. All Rights Reserved.</p>
+      <div class="links">
+        <a href="#" title="Log In">Log In</a> |
+        <a href="#" title="Privacy Policy">Privacy Policy</a> |
+        <a href="#" title="Terms and Conditions">Terms and Conditions</a> |
+        <a href="#" title="Contact Us">Contact Us</a> |
+        <a href="#" title="Back to Top">Back to Top</a>
+      </div>
+    </div>
+  </div>
+  
   </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
