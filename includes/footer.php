@@ -2,28 +2,42 @@
     
     <div class="footer-wrap">
       <div class="footer margin-center clearfix">
-        <div class="col half">
+        <div class="col half about">
           <h5>About Us</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in nisl at ante eleifend interdum. Phasellus vel ligula augue. Quisque in massa ut metus viverra varius.</p>
-        </div>
-        <div class="col half">
-          <h5>Categories</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in nisl at ante eleifend interdum. Phasellus vel ligula augue. Quisque in massa ut metus viverra varius.</p>
-        </div>
-        <div class="col">
-          <h5>From The Gallery</h5>
           <ul>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
-            <li>IMAGE</li>
+            <li><a href="#">Our Company</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">Submit a Site</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Help &amp; Terms</a></li>
+            <li><a href="#">Read Our Facts</a></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col half categories">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="#">Trends &amp; Technology</a></li>
+            <li><a href="#">Design Companies</a></li>
+            <li><a href="#">Design Freelancers</a></li>
+            <li><a href="#">Web Portfolios</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">General Icons</a></li>
+          </ul>
+        </div>
+        <div class="col gallery">
+          <h5>From The Gallery</h5>
+          <ul>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+            <li><a href="#"><img src="img/temp2.jpg" /></a></li>
+          </ul>
+        </div>
+        <div class="col twitter">
           <h5>Twitter Updates</h5>
         </div>
       </div>
