@@ -3,7 +3,7 @@
     <?php include('includes/nav.php')?>
     
     <div class="carousel margin-center">
-      Carousel Goes Here
+      Carousel Goes Here replace with images
     </div>
     <div class="content margin-center clearfix">
       <div class="col">
