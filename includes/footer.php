@@ -39,6 +39,10 @@
         </div>
         <div class="col twitter">
           <h5>Twitter Updates</h5>
+          <div class="tweet">
+            <p><a href="#">@Dellustrations</a> there is a new designer in town people! It’s amazing How you can do everything inside twitter! <a href="#">http://bit.urds</a></p>
+            <span>2 minutes ago via <a href="#">TweeterDeck</a></span>
+          </div>
         </div>
       </div>
     </div>

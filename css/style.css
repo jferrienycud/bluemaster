@@ -96,11 +96,12 @@ h3 {
 }
 h4 {
   font-size:18px;
+  line-height:18px;
 }
 h5 {
   color:#8c94ac;
   font-size:22px;
-  margin:0 0 23px;
+  margin:0 0 11px;
 }
 .links { 
   font-size:11px;
@@ -196,12 +197,15 @@ h5 {
       text-decoration:none;
       text-shadow: 1px 1px 2px #000;
     }
-      .nav li a:hover {
+      .nav li a:hover, .nav li a.active {
         background:rgba(13, 15, 19, 0.4);
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
         color:#fff;
+      }
+      .no-rgba .nav li a:hover,.no-rgba .nav li a.active {
+        background:rgb(13, 15, 19);
       }
 
 /************************************************************************************
@@ -212,15 +216,14 @@ h5 {
   padding:22px;
   width:906px;
 }
+.no-rgba .content {
+  background:rgb(23, 25, 32);
+}
   .content .col {
-    background:rgba(24, 27, 36, 0.5);
     float:left;
     margin:0 20px 0 0;
     width:288px;
   }
-    .content .col .info {
-      padding:15px;
-    }
     .content .col .title {
       background: #4a556d; /* Old browsers */
       background: -moz-linear-gradient(top, #4a556d 0%, #2e3850 100%); /* FF3.6+ */
@@ -231,6 +234,18 @@ h5 {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a556d', endColorstr='#2e3850',GradientType=0 ); /* IE6-9 */
       background: linear-gradient(top, #4a556d 0%,#2e3850 100%); /* W3C */  
     }
+    .content .col .info {
+      background:rgba(24, 27, 36, 0.5);
+      height:277px;
+      padding:19px;
+      position:relative;
+    }
+    .content .contact .info {
+      height:auto;
+    }
+    .no-rgba .content .col .info {
+      background:rgb(24, 27, 36);
+    }
       .content .col h3 {
         background:url(../img/icons/title_icons.png) 0 0 no-repeat;
       }
@@ -240,22 +255,131 @@ h5 {
       .content .contact h3 {
         background-position:0 -92px;
       }
+        .content .col .info img {
+           margin:0 0 9px;
+        }
+        .content .col .info span {
+           font-size:10px;
+        }
+        .content .col .info p {
+          line-height:16px;
+          margin:10px 0 0;
+        }
+        .content .col .info .buttons {
+          bottom:19px;
+          position:absolute;
+        }
+          .content .col .info .buttons a {
+            background:#11719f;
+            color:#fff;
+            font-size:12px;
+            font-weight:bold;
+            display:inline-block;
+            margin:0 10px 0 0;
+            padding:15px 12px;
+          }
+          
+      .contact ul li {
+        background:url(../img/icons/contact_icons.png) 0 0 no-repeat;
+        font-size:11px;
+        height:32px;
+        margin:0 0 20px;
+        padding:0 0 0 50px;
+      }
+        .contact ul li.email {
+          background-position:0 -32px;
+        }
+        .contact ul li.skype, .contact ul li.other {
+          background-position:0 -64px;
+        }
+        .contact ul li.other {
+          margin:0;
+        }
+        .contact ul.social-tools {
+          background:rgba(24, 27, 36, 0.5);
+          height:32px;
+          margin:20px 0 0;
+          padding:18px;
+        }
+        .no-rgba .contact ul.social-tools {
+          background:rgb(24, 27, 36);
+        }
+          .contact ul.social-tools li {
+            background:none;
+            float:left;
+            height:32px;
+            padding:0;
+            margin:0 13px 0 0;
+            width:31px;
+          }
+          .contact ul.social-tools li.yt {
+            margin:0;
+          }
+            .contact ul.social-tools li a {
+              background:url(../img/icons/social_icons.png) 0 0 no-repeat;
+              display:block;
+              height:32px;
+              width:31px;
+            }
+            .contact ul.social-tools li.fb a {
+              background-position:-31px 0;
+            }
+            .contact ul.social-tools li.re a {
+              background-position:-62px 0;
+            }
+            .contact ul.social-tools li.li a {
+              background-position:-93px 0;
+            }
+            .contact ul.social-tools li.tw2 a {
+              background-position:-123px 0;
+            }
+            .contact ul.social-tools li.yt a {
+              background-position:-154px 0;
+            }
 
 /************************************************************************************
  * Carousel
  ***********************************************************************************/
 .carousel {
-  
+  margin-bottom:51px;
 }
   .carousel .player {
     border:10px solid #fff;
     height:320px;
+    position:relative;
     width:930px;
   }
-  .carousel .controller {
+    .carousel .player img { 
+      display:none;
+      left:0px;
+      position:absolute;
+      top:0px;
+      
+    }
+  .nivo-box, .nivo-slice, .nivo-directionNav, .nivo-controlNav { position: absolute;}
+  .nivo-directionNav, .nivo-controlNav { z-index:500; }
+  .carousel .nivo-controlNav {
     background:url(../img/scroll_shadow.png) 0 0 no-repeat;
-    height:41px;
+    height:31px;
+    left:-10px; bottom:-51px;
+    padding:10px 0 0;
+    text-align: center;
+    width:950px;;
   }
+    .carousel .nivo-controlNav a {
+      background:url(../img/scroll_btn.png) 0 0 no-repeat;
+      display:inline-block;
+      height:14px;
+      margin:0 6px 0 0;
+      text-indent:-9000px;
+      width:14px;
+    }
+    .carousel .nivo-controlNav a:last-child {
+      margin:0;
+    }
+      .carousel .nivo-controlNav a:hover,.carousel .nivo-controlNav a.active  {
+        background-position: -14px 0;
+      }
 
 /************************************************************************************
  * Footer
@@ -270,10 +394,11 @@ h5 {
 }
   .footer .col {
     float:left;
+    height:160px;
     width:300px;
   }
   .footer .half {
-    width:150px;
+    width:170px;
   }
   
   .gallery ul li {
@@ -288,6 +413,19 @@ h5 {
       display:block;
       padding:5px;
     }
+  .footer .twitter {
+    background:url(../img/bird_bg.png) 0 0 no-repeat;
+    width:306px;
+  }
+    .twitter .tweet {
+      padding:17px;
+    }
+      .twitter .tweet p {
+        padding:0 0 16px;
+      }
+      .twitter .tweet span {
+        font-size:11px;
+      }
 
 /************************************************************************************
  * Legal
@@ -295,6 +433,7 @@ h5 {
 .legal-wrap {
   background:#040507;
   border-top:1px solid #0F131F;
+  font-size:11px;
 }
 .legal {
   height:60px;
